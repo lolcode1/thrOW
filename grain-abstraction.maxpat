@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 300.0, 44.0, 1016.0, 731.0 ],
+		"rect" : [ 264.0, 44.0, 1016.0, 731.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -28,6 +28,19 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-86",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 278.0, 652.0, 157.0, 20.0 ],
+					"text" : "send-val-to-server /grain #1"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -1822,6 +1835,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-86", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-26", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-50", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -2458,43 +2480,50 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "mass~.maxpat",
-				"bootpath" : "/Users/eberdahl/Documents/gits/Open-Source-Haptics-For-Artists/Software/Max/palette/CA",
-				"patcherrelativepath" : "../../../../Users/eberdahl/Documents/gits/Open-Source-Haptics-For-Artists/Software/Max/palette/CA",
+				"bootpath" : "/Users/lol/Documents/Dr Berdahl/Open-Source-Haptics-For-Artists/Software/Max/palette/CA",
+				"patcherrelativepath" : "../Open-Source-Haptics-For-Artists/Software/Max/palette/CA",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "grnd~.maxpat",
-				"bootpath" : "/Users/eberdahl/Documents/gits/Open-Source-Haptics-For-Artists/Software/Max/palette/CA",
-				"patcherrelativepath" : "../../../../Users/eberdahl/Documents/gits/Open-Source-Haptics-For-Artists/Software/Max/palette/CA",
+				"bootpath" : "/Users/lol/Documents/Dr Berdahl/Open-Source-Haptics-For-Artists/Software/Max/palette/CA",
+				"patcherrelativepath" : "../Open-Source-Haptics-For-Artists/Software/Max/palette/CA",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "contact~.maxpat",
-				"bootpath" : "/Users/eberdahl/Documents/gits/Open-Source-Haptics-For-Artists/Software/Max/palette/CA",
-				"patcherrelativepath" : "../../../../Users/eberdahl/Documents/gits/Open-Source-Haptics-For-Artists/Software/Max/palette/CA",
+				"bootpath" : "/Users/lol/Documents/Dr Berdahl/Open-Source-Haptics-For-Artists/Software/Max/palette/CA",
+				"patcherrelativepath" : "../Open-Source-Haptics-For-Artists/Software/Max/palette/CA",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "touch-x2~.maxpat",
-				"bootpath" : "/Users/eberdahl/Documents/gits/Open-Source-Haptics-For-Artists/Software/Max/palette/CA",
-				"patcherrelativepath" : "../../../../Users/eberdahl/Documents/gits/Open-Source-Haptics-For-Artists/Software/Max/palette/CA",
+				"bootpath" : "/Users/lol/Documents/Dr Berdahl/Open-Source-Haptics-For-Artists/Software/Max/palette/CA",
+				"patcherrelativepath" : "../Open-Source-Haptics-For-Artists/Software/Max/palette/CA",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "link~.maxpat",
-				"bootpath" : "/Users/eberdahl/Documents/gits/Open-Source-Haptics-For-Artists/Software/Max/palette/CA",
-				"patcherrelativepath" : "../../../../Users/eberdahl/Documents/gits/Open-Source-Haptics-For-Artists/Software/Max/palette/CA",
+				"bootpath" : "/Users/lol/Documents/Dr Berdahl/Open-Source-Haptics-For-Artists/Software/Max/palette/CA",
+				"patcherrelativepath" : "../Open-Source-Haptics-For-Artists/Software/Max/palette/CA",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "touch~.maxpat",
-				"bootpath" : "/Users/eberdahl/Documents/gits/Open-Source-Haptics-For-Artists/Software/Max/palette/CA",
-				"patcherrelativepath" : "../../../../Users/eberdahl/Documents/gits/Open-Source-Haptics-For-Artists/Software/Max/palette/CA",
+				"bootpath" : "/Users/lol/Documents/Dr Berdahl/Open-Source-Haptics-For-Artists/Software/Max/palette/CA",
+				"patcherrelativepath" : "../Open-Source-Haptics-For-Artists/Software/Max/palette/CA",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "send-val-to-server.maxpat",
+				"bootpath" : "/Users/lol/Documents/Dr Berdahl/thrOW",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
