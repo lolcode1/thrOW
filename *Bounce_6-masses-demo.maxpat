@@ -31,6 +31,157 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"id" : "obj-66",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 957.0, 118.409088, 63.0, 20.0 ],
+					"text" : "TCPSend"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-65",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 851.0, 49.0, 107.0, 20.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-61",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 925.5, 205.409088, 57.0, 20.0 ],
+					"text" : "udpsend"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-55",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 937.0, 151.409088, 63.0, 20.0 ],
+					"text" : "sendOSC"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"frgb" : 0.0,
+					"id" : "obj-54",
+					"linecount" : 4,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 812.0, 408.636383, 253.0, 60.0 ],
+					"presentation_rect" : [ 818.0, 392.0, 0.0, 0.0 ],
+					"text" : "IF YOU UNLOCK THE PATCH AND MODIFY/CREATE/DESTROY AN AUDIO OBJECT, YOU WILL NEED TO TURN DSP OFF AND ON AGAIN."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-63",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 845.0, 83.0, 76.0, 20.0 ],
+					"text" : "net.tcp.send"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"frgb" : 0.0,
+					"id" : "obj-62",
+					"linecount" : 4,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 845.0, 305.0, 150.0, 60.0 ],
+					"text" : "To do: Try nonlinear waveshaping to compensate for nonlinear motor characteristic."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-60",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 812.0, 205.409088, 49.0, 20.0 ],
+					"text" : "*~ 0.15"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-58",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 812.0, 177.409088, 42.0, 20.0 ],
+					"text" : "-~ 0.5"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-57",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 812.0, 151.409088, 38.0, 20.0 ],
+					"text" : ">~ 0."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-56",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 812.0, 128.0, 65.0, 20.0 ],
+					"text" : "cycle~ 40."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
 					"id" : "obj-53",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -1205,7 +1356,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 658.0, 57.0, 60.0, 20.0 ],
+					"patching_rect" : [ 647.5, 49.0, 60.0, 20.0 ],
 					"text" : "loadbang"
 				}
 
@@ -1676,7 +1827,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 142.0, 405.0, 109.0, 20.0 ],
+									"patching_rect" : [ 142.0, 405.0, 109.0, 19.0 ],
 									"text" : "stop writing movie"
 								}
 
@@ -1690,7 +1841,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 123.0, 351.0, 74.0, 20.0 ],
+									"patching_rect" : [ 123.0, 351.0, 74.0, 19.0 ],
 									"text" : "write movie"
 								}
 
@@ -1704,7 +1855,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 107.0, 427.0, 30.0, 18.0 ],
+									"patching_rect" : [ 107.0, 427.0, 30.0, 17.0 ],
 									"text" : "stop"
 								}
 
@@ -1718,7 +1869,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 85.0, 371.0, 196.0, 18.0 ],
+									"patching_rect" : [ 85.0, 371.0, 196.0, 17.0 ],
 									"text" : "write outputmovie.mov 25. jpeg max"
 								}
 
@@ -1815,7 +1966,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 214.0, 260.0, 550.0, 18.0 ],
+									"patching_rect" : [ 214.0, 260.0, 550.0, 17.0 ],
 									"text" : "reset, glcolor 1 0 0 1, glbegin polygon, glvertex -1. $1, glvertex 1. $1, glvertex 1. $2, glvertex -1. $2, glend"
 								}
 
@@ -1826,11 +1977,11 @@
 									"fontsize" : 12.0,
 									"id" : "obj-32",
 									"maxclass" : "newobj",
-									"numinlets" : 2,
+									"numinlets" : 1,
 									"numoutlets" : 1,
-									"outlettype" : [ "float" ],
-									"patching_rect" : [ 214.0, 184.0, 32.5, 20.0 ],
-									"text" : "* 1."
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 214.0, 184.0, 104.0, 20.0 ],
+									"text" : "expr ($f1*0.3)-0.5"
 								}
 
 							}
@@ -2285,7 +2436,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 525.0, 434.0, 915.0, 386.0 ],
+						"rect" : [ 204.0, 227.0, 1124.0, 384.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -2308,9 +2459,173 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
-									"id" : "obj-10",
+									"frgb" : 0.0,
+									"id" : "obj-20",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 551.0, 186.0, 48.0, 20.0 ],
+									"text" : "Frozen"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"hidden" : 1,
+									"id" : "obj-21",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 530.0, 158.0, 91.0, 20.0 ],
+									"text" : "loadmess set 1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-23",
+									"maxclass" : "toggle",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "int" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 530.0, 185.0, 20.0, 20.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"frgb" : 0.0,
+									"id" : "obj-17",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 786.0, 24.0, 48.0, 20.0 ],
+									"text" : "Frozen"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"hidden" : 1,
+									"id" : "obj-18",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 765.0, -4.0, 91.0, 20.0 ],
+									"text" : "loadmess set 1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-19",
+									"maxclass" : "toggle",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "int" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 765.0, 23.0, 20.0, 20.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"frgb" : 0.0,
+									"id" : "obj-14",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 347.0, 103.0, 48.0, 20.0 ],
+									"text" : "Frozen"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"hidden" : 1,
+									"id" : "obj-15",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 326.0, 75.0, 91.0, 20.0 ],
+									"text" : "loadmess set 1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-16",
+									"maxclass" : "toggle",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "int" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 326.0, 102.0, 20.0, 20.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"frgb" : 0.0,
+									"id" : "obj-13",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 859.0, 76.0, 48.0, 20.0 ],
+									"text" : "Frozen"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"hidden" : 1,
+									"id" : "obj-11",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 838.0, 48.0, 91.0, 20.0 ],
+									"text" : "loadmess set 1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-9",
+									"maxclass" : "toggle",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "int" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 838.0, 75.0, 20.0, 20.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-10",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
 									"patching_rect" : [ 20.0, 191.0, 203.0, 20.0 ],
@@ -2324,7 +2639,7 @@
 									"fontsize" : 12.0,
 									"id" : "obj-3",
 									"maxclass" : "newobj",
-									"numinlets" : 1,
+									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
 									"patching_rect" : [ 654.0, 101.0, 203.0, 20.0 ],
@@ -2338,10 +2653,10 @@
 									"fontsize" : 12.0,
 									"id" : "obj-4",
 									"maxclass" : "newobj",
-									"numinlets" : 1,
+									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
-									"patching_rect" : [ 657.0, 130.0, 229.0, 20.0 ],
+									"patching_rect" : [ 690.0, 181.0, 229.0, 20.0 ],
 									"text" : "grain-abstraction dummy 0.16666 0.3333"
 								}
 
@@ -2352,10 +2667,10 @@
 									"fontsize" : 12.0,
 									"id" : "obj-5",
 									"maxclass" : "newobj",
-									"numinlets" : 1,
+									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
-									"patching_rect" : [ 436.0, 103.0, 237.0, 20.0 ],
+									"patching_rect" : [ 547.0, 48.0, 237.0, 20.0 ],
 									"text" : "grain-abstraction dummy -0.3333 -0.16666"
 								}
 
@@ -2366,7 +2681,7 @@
 									"fontsize" : 12.0,
 									"id" : "obj-6",
 									"maxclass" : "newobj",
-									"numinlets" : 1,
+									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
 									"patching_rect" : [ 439.0, 132.0, 200.0, 20.0 ],
@@ -2403,25 +2718,16 @@
 									"fontsize" : 12.0,
 									"id" : "obj-22",
 									"maxclass" : "newobj",
-									"numinlets" : 1,
+									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
-									"patching_rect" : [ 222.0, 130.0, 211.0, 20.0 ],
+									"patching_rect" : [ 199.0, 130.0, 211.0, 20.0 ],
 									"text" : "grain-abstraction dummy -0.5 -0.3333"
 								}
 
 							}
  ],
 						"lines" : [ 							{
-								"patchline" : 								{
-									"destination" : [ "obj-10", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-1", 0 ]
-								}
-
-							}
-, 							{
 								"patchline" : 								{
 									"destination" : [ "obj-22", 0 ],
 									"disabled" : 0,
@@ -2433,15 +2739,6 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-3", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-1", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-4", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-1", 0 ]
@@ -2468,10 +2765,55 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-2", 0 ],
+									"destination" : [ "obj-9", 0 ],
+									"disabled" : 0,
+									"hidden" : 1,
+									"source" : [ "obj-11", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-16", 0 ],
+									"disabled" : 0,
+									"hidden" : 1,
+									"source" : [ "obj-15", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-22", 1 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"source" : [ "obj-10", 0 ]
+									"source" : [ "obj-16", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-19", 0 ],
+									"disabled" : 0,
+									"hidden" : 1,
+									"source" : [ "obj-18", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-5", 1 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-19", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-23", 0 ],
+									"disabled" : 0,
+									"hidden" : 1,
+									"source" : [ "obj-21", 0 ]
 								}
 
 							}
@@ -2486,10 +2828,11 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-2", 0 ],
+									"destination" : [ "obj-6", 1 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"source" : [ "obj-3", 0 ]
+									"midpoints" : [ 539.5, 212.0, 648.0, 212.0, 648.0, 127.0, 629.5, 127.0 ],
+									"source" : [ "obj-23", 0 ]
 								}
 
 							}
@@ -2498,7 +2841,7 @@
 									"destination" : [ "obj-2", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"source" : [ "obj-4", 0 ]
+									"source" : [ "obj-3", 0 ]
 								}
 
 							}
@@ -2517,6 +2860,15 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-6", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-3", 1 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-9", 0 ]
 								}
 
 							}
@@ -3823,6 +4175,33 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-57", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-56", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-58", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-57", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-60", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-58", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-37", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -3853,13 +4232,13 @@
 		"dependency_cache" : [ 			{
 				"name" : "FireFader~.maxpat",
 				"bootpath" : "/Users/eberdahl/Documents/gits/Open-Source-Haptics-For-Artists/Software/Max/palette",
-				"patcherrelativepath" : "../../../../gits/Open-Source-Haptics-For-Artists/Software/Max/palette",
+				"patcherrelativepath" : "../../../../Users/eberdahl/Documents/gits/Open-Source-Haptics-For-Artists/Software/Max/palette",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "grain-abstraction.maxpat",
-				"bootpath" : "/Users/eberdahl/Documents/LSU/Compositions/gits/thrOW",
+				"bootpath" : "/Volumes/NO NAME/Compositions/21-Granular synthesis-sinusoids",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -3867,28 +4246,42 @@
 , 			{
 				"name" : "mass~.maxpat",
 				"bootpath" : "/Users/eberdahl/Documents/gits/Open-Source-Haptics-For-Artists/Software/Max/palette/CA",
-				"patcherrelativepath" : "../../../../gits/Open-Source-Haptics-For-Artists/Software/Max/palette/CA",
+				"patcherrelativepath" : "../../../../Users/eberdahl/Documents/gits/Open-Source-Haptics-For-Artists/Software/Max/palette/CA",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "grnd~.maxpat",
 				"bootpath" : "/Users/eberdahl/Documents/gits/Open-Source-Haptics-For-Artists/Software/Max/palette/CA",
-				"patcherrelativepath" : "../../../../gits/Open-Source-Haptics-For-Artists/Software/Max/palette/CA",
+				"patcherrelativepath" : "../../../../Users/eberdahl/Documents/gits/Open-Source-Haptics-For-Artists/Software/Max/palette/CA",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "contact~.maxpat",
 				"bootpath" : "/Users/eberdahl/Documents/gits/Open-Source-Haptics-For-Artists/Software/Max/palette/CA",
-				"patcherrelativepath" : "../../../../gits/Open-Source-Haptics-For-Artists/Software/Max/palette/CA",
+				"patcherrelativepath" : "../../../../Users/eberdahl/Documents/gits/Open-Source-Haptics-For-Artists/Software/Max/palette/CA",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "touch-x2~.maxpat",
 				"bootpath" : "/Users/eberdahl/Documents/gits/Open-Source-Haptics-For-Artists/Software/Max/palette/CA",
-				"patcherrelativepath" : "../../../../gits/Open-Source-Haptics-For-Artists/Software/Max/palette/CA",
+				"patcherrelativepath" : "../../../../Users/eberdahl/Documents/gits/Open-Source-Haptics-For-Artists/Software/Max/palette/CA",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "link~.maxpat",
+				"bootpath" : "/Users/eberdahl/Documents/gits/Open-Source-Haptics-For-Artists/Software/Max/palette/CA",
+				"patcherrelativepath" : "../../../../Users/eberdahl/Documents/gits/Open-Source-Haptics-For-Artists/Software/Max/palette/CA",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "touch~.maxpat",
+				"bootpath" : "/Users/eberdahl/Documents/gits/Open-Source-Haptics-For-Artists/Software/Max/palette/CA",
+				"patcherrelativepath" : "../../../../Users/eberdahl/Documents/gits/Open-Source-Haptics-For-Artists/Software/Max/palette/CA",
 				"type" : "JSON",
 				"implicit" : 1
 			}
