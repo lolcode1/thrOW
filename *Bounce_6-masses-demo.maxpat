@@ -1205,7 +1205,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 620.0, 67.0, 60.0, 20.0 ],
+					"patching_rect" : [ 658.0, 57.0, 60.0, 20.0 ],
 					"text" : "loadbang"
 				}
 
@@ -2285,7 +2285,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 582.0, 434.0, 915.0, 386.0 ],
+						"rect" : [ 525.0, 434.0, 915.0, 386.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -2304,7 +2304,6 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -3571,15 +3570,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-41", 0 ],
-					"disabled" : 0,
-					"hidden" : 1,
-					"source" : [ "obj-22", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-14", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -3863,13 +3853,13 @@
 		"dependency_cache" : [ 			{
 				"name" : "FireFader~.maxpat",
 				"bootpath" : "/Users/eberdahl/Documents/gits/Open-Source-Haptics-For-Artists/Software/Max/palette",
-				"patcherrelativepath" : "../../../../Users/eberdahl/Documents/gits/Open-Source-Haptics-For-Artists/Software/Max/palette",
+				"patcherrelativepath" : "../../../../gits/Open-Source-Haptics-For-Artists/Software/Max/palette",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "grain-abstraction.maxpat",
-				"bootpath" : "/Volumes/NO NAME/Compositions/21-Granular synthesis-sinusoids",
+				"bootpath" : "/Users/eberdahl/Documents/LSU/Compositions/gits/thrOW",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -3877,28 +3867,28 @@
 , 			{
 				"name" : "mass~.maxpat",
 				"bootpath" : "/Users/eberdahl/Documents/gits/Open-Source-Haptics-For-Artists/Software/Max/palette/CA",
-				"patcherrelativepath" : "../../../../Users/eberdahl/Documents/gits/Open-Source-Haptics-For-Artists/Software/Max/palette/CA",
+				"patcherrelativepath" : "../../../../gits/Open-Source-Haptics-For-Artists/Software/Max/palette/CA",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "grnd~.maxpat",
 				"bootpath" : "/Users/eberdahl/Documents/gits/Open-Source-Haptics-For-Artists/Software/Max/palette/CA",
-				"patcherrelativepath" : "../../../../Users/eberdahl/Documents/gits/Open-Source-Haptics-For-Artists/Software/Max/palette/CA",
+				"patcherrelativepath" : "../../../../gits/Open-Source-Haptics-For-Artists/Software/Max/palette/CA",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "contact~.maxpat",
 				"bootpath" : "/Users/eberdahl/Documents/gits/Open-Source-Haptics-For-Artists/Software/Max/palette/CA",
-				"patcherrelativepath" : "../../../../Users/eberdahl/Documents/gits/Open-Source-Haptics-For-Artists/Software/Max/palette/CA",
+				"patcherrelativepath" : "../../../../gits/Open-Source-Haptics-For-Artists/Software/Max/palette/CA",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "touch-x2~.maxpat",
 				"bootpath" : "/Users/eberdahl/Documents/gits/Open-Source-Haptics-For-Artists/Software/Max/palette/CA",
-				"patcherrelativepath" : "../../../../Users/eberdahl/Documents/gits/Open-Source-Haptics-For-Artists/Software/Max/palette/CA",
+				"patcherrelativepath" : "../../../../gits/Open-Source-Haptics-For-Artists/Software/Max/palette/CA",
 				"type" : "JSON",
 				"implicit" : 1
 			}
