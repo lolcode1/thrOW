@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 172.0, 70.0, 1108.0, 712.0 ],
+		"rect" : [ 58.0, 46.0, 1108.0, 712.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
