@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 172.0, 44.0, 1108.0, 738.0 ],
+		"rect" : [ 172.0, 70.0, 1108.0, 712.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -2080,7 +2080,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 104.0, 416.0, 366.0, 20.0 ],
-									"presentation_rect" : [ 86.0, 420.0, 0.0, 0.0 ],
 									"text" : "This argument must match the number of masses!!!!!!!!!!!!!!!!!!!!! --->"
 								}
 
