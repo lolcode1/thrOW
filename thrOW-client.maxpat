@@ -1270,7 +1270,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 344.0, 73.0, 936.0, 525.0 ],
+						"rect" : [ 78.0, 86.0, 936.0, 525.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1289,7 +1289,35 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-28",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 452.5, 142.0, 32.5, 18.0 ],
+									"text" : "1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-12",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 452.5, 167.0, 175.0, 20.0 ],
+									"text" : "send-val-to-server /cleardispl 1"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
@@ -1626,10 +1654,10 @@
 									"id" : "obj-24",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
-									"numoutlets" : 4,
-									"outlettype" : [ "bang", "erase", "bang", "bang" ],
-									"patching_rect" : [ 214.0, 77.0, 77.0, 20.0 ],
-									"text" : "t b erase b b"
+									"numoutlets" : 5,
+									"outlettype" : [ "bang", "erase", "bang", "bang", "bang" ],
+									"patching_rect" : [ 214.0, 77.0, 87.0, 20.0 ],
+									"text" : "t b erase b b b"
 								}
 
 							}
@@ -1778,6 +1806,15 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-28", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-24", 4 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-31", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -1791,6 +1828,15 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-24", 3 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-12", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-28", 0 ]
 								}
 
 							}
@@ -2051,7 +2097,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 170.0, 94.0, 1072.0, 658.0 ],
+						"rect" : [ 64.0, 128.0, 1072.0, 632.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
