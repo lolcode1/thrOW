@@ -89,8 +89,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 278.0, 652.0, 157.0, 20.0 ],
-					"text" : "send-val-to-server /grain #1"
+					"patching_rect" : [ 278.0, 652.0, 207.0, 20.0 ],
+					"text" : "send-val-to-server-graphics /grain #1"
 				}
 
 			}
@@ -1981,7 +1981,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "send-val-to-server.maxpat",
+				"name" : "send-val-to-server-graphics.maxpat",
 				"bootpath" : "/Users/lol/Documents/Dr Berdahl/thrOW",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
