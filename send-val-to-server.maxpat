@@ -131,9 +131,10 @@
 					"id" : "obj-64",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 134.0, 133.805054, 133.0, 20.0 ],
-					"text" : "udpsend 10.0.1.1 7400"
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 134.0, 133.805054, 273.0, 20.0 ],
+					"text" : "mxj net.udp.send @address 10.0.1.1 @port 7400"
 				}
 
 			}
