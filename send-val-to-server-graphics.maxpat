@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 594.0, 292.0, 597.0, 239.0 ],
+		"rect" : [ 208.0, 267.0, 597.0, 239.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -161,10 +161,9 @@
 					"id" : "obj-64",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 134.0, 133.805054, 273.0, 20.0 ],
-					"text" : "mxj net.udp.send @address 10.0.1.1 @port 7800"
+					"numoutlets" : 0,
+					"patching_rect" : [ 134.0, 133.805054, 53.0, 20.0 ],
+					"text" : "s s7800"
 				}
 
 			}

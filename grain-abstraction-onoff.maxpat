@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 25.0, 69.0, 710.0, 515.0 ],
+		"rect" : [ 25.0, 95.0, 710.0, 489.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -500,11 +500,11 @@
 					"fontsize" : 12.0,
 					"id" : "obj-25",
 					"maxclass" : "newobj",
-					"numinlets" : 1,
+					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 141.0, 10.0, 99.0, 20.0 ],
-					"text" : "udpreceive 7400"
+					"patching_rect" : [ 141.0, 10.0, 49.0, 20.0 ],
+					"text" : "r r7400"
 				}
 
 			}
@@ -916,7 +916,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "send-val-to-server.maxpat",
+				"name" : "send-val-to-server-graphics.maxpat",
 				"bootpath" : "/Users/lol/Documents/Dr Berdahl/thrOW",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
@@ -924,6 +924,13 @@
 			}
 , 			{
 				"name" : "onlychangetoggle.maxpat",
+				"bootpath" : "/Users/lol/Documents/Dr Berdahl/thrOW",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "send-val-to-server.maxpat",
 				"bootpath" : "/Users/lol/Documents/Dr Berdahl/thrOW",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
