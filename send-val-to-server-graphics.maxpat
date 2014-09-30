@@ -38,7 +38,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 338.0, 159.0, 150.0, 33.0 ],
-					"text" : "Used to be:\nudpsend 10.0.1.1 7800"
+					"text" : "Used to be:\nudpsend 10.0.1.200 7800"
 				}
 
 			}

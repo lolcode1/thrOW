@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 89.0, 98.0, 784.0, 569.0 ],
+		"rect" : [ 89.0, 124.0, 784.0, 543.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -3064,7 +3064,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 545.0, 241.0, 859.0, 386.0 ],
+						"rect" : [ 421.0, 267.0, 859.0, 360.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -3277,8 +3277,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 326.0, 98.502869, 273.0, 20.0 ],
-									"text" : "mxj net.udp.send @address 10.0.1.1 @port 7800"
+									"patching_rect" : [ 326.0, 98.502869, 286.0, 20.0 ],
+									"text" : "mxj net.udp.send @address 10.0.1.200 @port 7800"
 								}
 
 							}
@@ -3344,8 +3344,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 60.954529, 400.5, 273.0, 20.0 ],
-									"text" : "mxj net.udp.send @address 10.0.1.1 @port 7400"
+									"patching_rect" : [ 60.954529, 400.5, 286.0, 20.0 ],
+									"text" : "mxj net.udp.send @address 10.0.1.200 @port 7400"
 								}
 
 							}
