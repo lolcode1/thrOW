@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 25.0, 69.0, 419.0, 213.0 ],
+		"rect" : [ 25.0, 95.0, 765.0, 348.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -37,7 +37,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 138.0, 41.0, 40.0, 20.0 ],
-					"presentation_rect" : [ 143.0, 41.0, 0.0, 0.0 ],
 					"text" : "*~ -1."
 				}
 
@@ -65,10 +64,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 138.0, 179.0, 44.0, 20.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"text" : "out~ 2"
 				}
 
@@ -110,6 +105,10 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 87.0, 179.0, 44.0, 20.0 ],
+					"saved_object_attributes" : 					{
+						"attr_comment" : ""
+					}
+,
 					"text" : "out~ 1"
 				}
 
@@ -161,7 +160,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 114.0, 59.0, 1072.0, 592.0 ],
+						"rect" : [ 114.0, 85.0, 1072.0, 566.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -188,8 +187,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
-									"patching_rect" : [ 759.0, 23.0, 25.0, 25.0 ],
-									"presentation_rect" : [ 759.0, 25.0, 0.0, 0.0 ]
+									"patching_rect" : [ 759.0, 23.0, 25.0, 25.0 ]
 								}
 
 							}
@@ -200,8 +198,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 894.0, 312.0, 25.0, 25.0 ],
-									"presentation_rect" : [ 709.0, 295.0, 0.0, 0.0 ]
+									"patching_rect" : [ 894.0, 312.0, 25.0, 25.0 ]
 								}
 
 							}
@@ -213,7 +210,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 812.0, 537.0, 124.0, 20.0 ],
+									"patching_rect" : [ 313.0, 392.0, 124.0, 20.0 ],
 									"text" : "print releasethismass"
 								}
 
@@ -833,15 +830,6 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-24", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-13", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
 									"destination" : [ "obj-25", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -900,6 +888,15 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-22", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-24", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-25", 0 ]
 								}
 
 							}
@@ -1365,21 +1362,14 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "touch~.maxpat",
+				"bootpath" : "/Users/lol/Documents/Dr Berdahl/Open-Source-Haptics-For-Artists/Software/Max/palette/CA",
+				"patcherrelativepath" : "../Open-Source-Haptics-For-Artists/Software/Max/palette/CA",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "grnd~.maxpat",
-				"bootpath" : "/Users/lol/Documents/Dr Berdahl/Open-Source-Haptics-For-Artists/Software/Max/palette/CA",
-				"patcherrelativepath" : "../Open-Source-Haptics-For-Artists/Software/Max/palette/CA",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "contact~.maxpat",
-				"bootpath" : "/Users/lol/Documents/Dr Berdahl/Open-Source-Haptics-For-Artists/Software/Max/palette/CA",
-				"patcherrelativepath" : "../Open-Source-Haptics-For-Artists/Software/Max/palette/CA",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "touch-x2~.maxpat",
 				"bootpath" : "/Users/lol/Documents/Dr Berdahl/Open-Source-Haptics-For-Artists/Software/Max/palette/CA",
 				"patcherrelativepath" : "../Open-Source-Haptics-For-Artists/Software/Max/palette/CA",
 				"type" : "JSON",
@@ -1393,16 +1383,16 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "touch~.maxpat",
-				"bootpath" : "/Users/lol/Documents/Dr Berdahl/Open-Source-Haptics-For-Artists/Software/Max/palette/CA",
-				"patcherrelativepath" : "../Open-Source-Haptics-For-Artists/Software/Max/palette/CA",
+				"name" : "send-val-to-server-graphics.maxpat",
+				"bootpath" : "/Users/lol/Documents/Dr Berdahl/thrOW",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "send-val-to-server-graphics.maxpat",
-				"bootpath" : "/Users/lol/Documents/Dr Berdahl/thrOW",
-				"patcherrelativepath" : ".",
+				"name" : "touch-x2~.maxpat",
+				"bootpath" : "/Users/lol/Documents/Dr Berdahl/Open-Source-Haptics-For-Artists/Software/Max/palette/CA",
+				"patcherrelativepath" : "../Open-Source-Haptics-For-Artists/Software/Max/palette/CA",
 				"type" : "JSON",
 				"implicit" : 1
 			}
