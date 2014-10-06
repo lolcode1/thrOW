@@ -29,6 +29,21 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"color" : [ 0.278431, 0.921569, 0.639216, 1.0 ],
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-17",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "signal", "signal" ],
+					"patching_rect" : [ 436.0, 326.5, 113.0, 20.0 ],
+					"text" : "touch-x2~ c 1. 0. 0."
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-6",
@@ -90,7 +105,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 524.0, 400.5, 25.0, 25.0 ]
+					"patching_rect" : [ 514.5, 400.5, 25.0, 25.0 ]
 				}
 
 			}
@@ -104,8 +119,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 430.5, 374.5, 113.0, 20.0 ],
-					"text" : "touch-x2~ c 1. 0. 0."
+					"patching_rect" : [ 430.5, 374.5, 96.0, 20.0 ],
+					"text" : "touch~ c 1. 0. 0."
 				}
 
 			}
@@ -478,21 +493,6 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-69",
-					"maxclass" : "number~",
-					"mode" : 2,
-					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "signal", "float" ],
-					"patching_rect" : [ 289.0, 457.0, 56.0, 20.0 ],
-					"sig" : 0.0
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"color" : [ 0.278431, 0.921569, 0.639216, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -531,8 +531,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 117.0, 457.0, 113.0, 20.0 ],
-					"text" : "touch-x2~ c 1. 0. 0."
+					"patching_rect" : [ 117.0, 457.0, 96.0, 20.0 ],
+					"text" : "touch~ c 1. 0. 0."
 				}
 
 			}
@@ -795,15 +795,6 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"midpoints" : [ 271.5, 440.0, 259.0, 440.0, 240.0, 336.0, 256.5, 336.0 ],
-					"source" : [ "obj-1", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-69", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-1", 0 ]
 				}
 
@@ -1083,7 +1074,7 @@
 					"destination" : [ "obj-1", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 220.5, 483.0, 240.0, 483.0, 258.0, 402.0, 271.5, 402.0 ],
+					"midpoints" : [ 203.5, 483.0, 240.0, 483.0, 258.0, 402.0, 271.5, 402.0 ],
 					"source" : [ "obj-61", 1 ]
 				}
 
@@ -1265,7 +1256,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "touch-x2~.maxpat",
+				"name" : "touch~.maxpat",
 				"bootpath" : "/Users/lol/Documents/Dr Berdahl/Open-Source-Haptics-For-Artists/Software/Max/palette/CA",
 				"patcherrelativepath" : "../Open-Source-Haptics-For-Artists/Software/Max/palette/CA",
 				"type" : "JSON",
@@ -1289,6 +1280,13 @@
 				"name" : "send-val-to-server-graphics.maxpat",
 				"bootpath" : "/Users/lol/Documents/Dr Berdahl/thrOW",
 				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "touch-x2~.maxpat",
+				"bootpath" : "/Users/lol/Documents/Dr Berdahl/Open-Source-Haptics-For-Artists/Software/Max/palette/CA",
+				"patcherrelativepath" : "../Open-Source-Haptics-For-Artists/Software/Max/palette/CA",
 				"type" : "JSON",
 				"implicit" : 1
 			}
