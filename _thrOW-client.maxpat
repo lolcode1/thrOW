@@ -1563,6 +1563,7 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -1573,7 +1574,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
 									"patching_rect" : [ 67.250061, 707.604004, 86.5, 20.0 ],
-									"presentation_rect" : [ 85.5, 671.604004, 0.0, 0.0 ],
 									"text" : "biquad~"
 								}
 
@@ -1701,7 +1701,7 @@
 									"outlettype" : [ "list", "float", "float", "float", "float", "list", "int" ],
 									"parameter_enable" : 0,
 									"patching_rect" : [ 481.25, 507.500031, 360.0, 155.0 ],
-									"setfilter" : [ 0, 2, 0, 0, 0, 91.156441, 1.0, 0.7, 0.0001, 22050.0, 0.0001, 16.0, 0.5, 25.0 ]
+									"setfilter" : [ 0, 6, 0, 0, 0, 75.808945, 0.3821, 0.7, 0.0001, 22050.0, 0.0001, 16.0, 0.5, 25.0 ]
 								}
 
 							}
