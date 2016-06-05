@@ -106,15 +106,16 @@
 			}
 , 			{
 				"box" : 				{
+					"fontface" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-6",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 428.5, 475.0, 194.0, 22.0 ],
+					"patching_rect" : [ 428.5, 475.0, 202.0, 22.0 ],
 					"style" : "",
-					"text" : "send-val-to-server /flewoffscreen 1"
+					"text" : "send-val-to-server /flewoffscreenB 1"
 				}
 
 			}
@@ -150,6 +151,7 @@
 			}
 , 			{
 				"box" : 				{
+					"fontface" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-53",
@@ -157,9 +159,9 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 284.5, 93.0, 105.0, 22.0 ],
+					"patching_rect" : [ 284.5, 93.0, 113.0, 22.0 ],
 					"style" : "",
-					"text" : "r releasethismass"
+					"text" : "r releasethismassB"
 				}
 
 			}
@@ -225,6 +227,7 @@
 			}
 , 			{
 				"box" : 				{
+					"fontface" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-5",
@@ -232,13 +235,13 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 412.0, 276.0, 137.0, 22.0 ],
+					"patching_rect" : [ 412.0, 276.0, 145.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 0
 					}
 ,
 					"style" : "",
-					"text" : "coll whichmassesfrozen"
+					"text" : "coll whichmassesfrozenB"
 				}
 
 			}
@@ -582,6 +585,7 @@
 			}
 , 			{
 				"box" : 				{
+					"fontface" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-27",
@@ -589,9 +593,9 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 48.0, 41.0, 91.0, 22.0 ],
+					"patching_rect" : [ 48.0, 41.0, 99.0, 22.0 ],
 					"style" : "",
-					"text" : "r myMachineID"
+					"text" : "r myMachineIDB"
 				}
 
 			}
@@ -607,7 +611,7 @@
 					"outlettype" : [ "signal", "signal", "signal" ],
 					"patching_rect" : [ 10.0, 225.0, 281.0, 22.0 ],
 					"style" : "",
-					"text" : "grain-abstraction #1 #2 #3"
+					"text" : "grain-abstractionB #1 #2 #3"
 				}
 
 			}

@@ -269,15 +269,16 @@
 			}
 , 			{
 				"box" : 				{
+					"fontface" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-86",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 276.0, 556.0, 207.0, 22.0 ],
+					"patching_rect" : [ 276.0, 556.0, 215.0, 22.0 ],
 					"style" : "",
-					"text" : "send-val-to-server-graphics /grain #1"
+					"text" : "send-val-to-server-graphicsB /grain #1"
 				}
 
 			}
@@ -334,7 +335,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1066.0, 165.0, 93.0, 18.0 ],
+					"patching_rect" : [ 1066.0, 165.0, 93.0, 22.0 ],
 					"style" : "",
 					"text" : "stoke 0. 0. 5. 5."
 				}
@@ -364,7 +365,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 1066.0, 139.0, 36.0, 20.0 ],
+					"patching_rect" : [ 1066.0, 139.0, 36.0, 22.0 ],
 					"style" : "",
 					"text" : "sel 3"
 				}
@@ -565,6 +566,7 @@
 			}
 , 			{
 				"box" : 				{
+					"fontface" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-29",
@@ -572,9 +574,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 262.0, 769.0, 235.0, 20.0 ],
+					"patching_rect" : [ 262.0, 769.0, 243.0, 22.0 ],
 					"style" : "",
-					"text" : "jit.gl.sketch mymatrix @smooth_shading 1"
+					"text" : "jit.gl.sketch mymatrixB @smooth_shading 1"
 				}
 
 			}
@@ -692,7 +694,7 @@
 					"numinlets" : 7,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 262.0, 722.0, 136.0, 20.0 ],
+					"patching_rect" : [ 262.0, 722.0, 136.0, 22.0 ],
 					"style" : "",
 					"text" : "pack 0. 0. #2 #3 0. 0. 0."
 				}
@@ -722,7 +724,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 262.0, 746.0, 575.0, 17.0 ],
+					"patching_rect" : [ 262.0, 746.0, 575.0, 21.0 ],
 					"style" : "",
 					"text" : "reset, glcolor $5 $6 $7 1, glbegin polygon, glvertex $3 $1, glvertex $4 $1, glvertex $4 $2, glvertex $3 $2, glend"
 				}
@@ -1317,7 +1319,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "send-val-to-server-graphics.maxpat",
+				"name" : "send-val-to-server-graphicsB.maxpat",
 				"bootpath" : "~/Documents/DrBerdahl/thrOW",
 				"type" : "JSON",
 				"implicit" : 1
