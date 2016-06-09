@@ -3,6 +3,13 @@ thrOW
 By Edgar Berdahl, Nov. 2014
 
 
+
+
+• Plug the right-hand side FireFader in first to the rear USB port (will be port c)
+• Plug the left-hand side FireFader into the front USB port (will be port d)
+
+
+
  
 
 To start:

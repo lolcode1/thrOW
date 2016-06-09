@@ -5181,6 +5181,7 @@
 			}
 , 			{
 				"box" : 				{
+					"fontface" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 9.0,
 					"id" : "obj-3",
@@ -5190,7 +5191,7 @@
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 68.0, 53.0, 46.0, 19.0 ],
 					"style" : "",
-					"text" : "qmetro 1"
+					"text" : "qmetro 2"
 				}
 
 			}
