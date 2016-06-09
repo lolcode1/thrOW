@@ -55,9 +55,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 21.0, 69.0, 49.0, 22.0 ],
+					"patching_rect" : [ 21.0, 69.0, 36.0, 22.0 ],
 					"style" : "",
-					"text" : "*~ 0.25"
+					"text" : "*~ 1."
 				}
 
 			}

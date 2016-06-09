@@ -3,31 +3,30 @@ thrOW
 By Edgar Berdahl, Nov. 2014
 
 
+To start:
+
+• Turn off wireless
+• Make sure that the numeral in ThisMachineIDis.txt and ThisMachineIDBis.txt matches the ID #s of the computers that you are meant to represent.  The fixed IP address should match ThisMachineIDBis.txt
+• For example, if ThisMachineIDBis.txt indicates 7, then the IP address of the computer should be 10.0.1.107.
 
 
-• Plug the right-hand side FireFader in first to the rear USB port (will be port c)
+Don't plug the FireFaders in until the computer is booted up.
+
+Then plug them in like this:
+THE ORDER IS THE MOST IMPORTANT (otherwise, the FireFaders will initialize backward):
 • Plug the left-hand side FireFader into the front USB port (will be port d)
-
-
+• Plug the right-hand side FireFader in first to the rear USB port (will be port c)
+• Wait 30 seconds
+• Open the patch _thrOW-MAIN-PATCH-OPEN-ME.maxpat
+• Set computer output volume half-way up
 
  
 
-To start:
-• Turn off wireless
-
-• Make sure that the numeral in ThisMachineIDis.txt matches the ID # of the computer and the fixed IP address.  (In other words, if the computer number is 3, then set the contents of ThisMachineIDis.txt to be
-3
-and then set the IP address of the computer to be 10.0.1.103.
-
-• Run the patch *thrOW-client.maxpat.
 
 
 
 
 
-
-For the server:
-• The IP address hold be 10.0.1.200
 
 
 
